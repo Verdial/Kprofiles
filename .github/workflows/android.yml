@@ -28,4 +28,4 @@ jobs:
     - name: Upload GitHub Actions artifact of vcpkg build
       uses: actions/upload-artifact@v2
       with:
-        path: /app/build/outputs/apk/release/app-release.apk
+        path: /build/outputs/apk/release/app-release.apk
