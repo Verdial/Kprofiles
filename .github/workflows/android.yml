@@ -25,7 +25,6 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew assembleRelease
 
-      name: Upload GitHub Actions artifact of vcpkg build
       uses: actions/upload-artifact@v2
       with:
         name: kprofiles
