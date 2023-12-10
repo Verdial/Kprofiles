@@ -26,6 +26,6 @@ jobs:
       run: ./gradlew assembleRelease
 
     - name: Upload GitHub Actions artifact of vcpkg build
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         path: build/outputs/apk/release/
